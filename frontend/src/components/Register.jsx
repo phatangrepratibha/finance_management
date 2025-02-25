@@ -75,17 +75,17 @@ if(token)
 
   return (
     <>
-      <div className="container text-center">
+      <div className="regcontainer text-center">
         {Loading && <Spinner/>}
         <div className="row">
           {/* Image Section */}
           <div className="col">
-          <Lottie animationData={anim} loop={true} style={{height:"400px",width:"400px",marginTop:"50px"}} />
+          <Lottie animationData={anim} loop={true} style={{width:"500px",height:"300px", marginLeft:"60px"}} />
           </div>
 
           {/* Form Section */}
           <div className="col">
-            <div className="container mt-5">
+            <div className="container ">
               <div className="row justify-content-center">
                 <div className="col-md-10">
                   <div className="card shadow">
