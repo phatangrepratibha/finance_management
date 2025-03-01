@@ -39,13 +39,13 @@ export const Home = () => {
         </div>
         <div className="carousel-inner">
           <div className="carousel-item active">
-            <img src="h3.jpg" className="d-block w-100" alt="..." />
+            <img src="b1.jpg" className="d-block w-100" alt="..." />
           </div>
           <div className="carousel-item">
-            <img src="h1.jpg" className="d-block w-100" alt="..." />
+            <img src="b4.jpg" className="d-block w-100" alt="..." />
           </div>
           <div className="carousel-item">
-            <img src="h2.jpg" className="d-block w-100" alt="..." />
+            <img src="b3.jpg" className="d-block w-100" alt="..." />
           </div>
         </div>
         <button
@@ -113,7 +113,7 @@ export const Home = () => {
       </p> <hr style={{color:"blue"}}/>
     </div>
     <div className="about-image">
-     <img src="h1.jpg" alt="" />
+     <img src="g2.jpg" alt="" />
     </div>
   </div>
   </div>
@@ -123,7 +123,7 @@ export const Home = () => {
   <div className="about-us-container">
     
     <div className="about-image">
-     <img src="h3.jpg" alt="" />
+     <img src="sim3.jpg" alt="" />
     </div>
 
     <div className="about-text">

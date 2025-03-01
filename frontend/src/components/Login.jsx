@@ -85,7 +85,7 @@ if(token)
         <div className="row">
           {/* Image Section */}
           <div className="col">
-          <Lottie animationData={anim} loop={true} style={{width:"500px",height:"300px", marginLeft:"60px"}} />
+          <Lottie animationData={anim} loop={true} style={{width:"600px",height:"400px", marginLeft:"60px"}} />
           </div>
 
           {/* Form Section */}

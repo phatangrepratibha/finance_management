@@ -7,8 +7,6 @@ import Analytics from "./Analytics.jsx";
 import { toast } from "react-toastify";
 import dayjs from "dayjs"; // For date manipulation
 
-
-
 const { Option } = Select;
 const { RangePicker } = DatePicker;
 
@@ -294,9 +292,7 @@ const Add = () => {
                 onClick={() => setViewData("analytics")}  />
             </div>
 
-
             <button type="button" className="btn btn-dark" onClick={() => openModal()} style={{marginLeft:"150px"}}>Add New</button><hr/>
-
           </Space>
         </div>
       </div>
@@ -305,7 +301,7 @@ const Add = () => {
         {viewData === "table" ? (
           <Table columns={columns} dataSource={filteredTransactions} rowKey="_id" />
         ) : (
-          <Analytics transactions={transactions} />
+          <Analytics transactions={filteredTransactions} />
         )}
       </div>
 
