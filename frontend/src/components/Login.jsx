@@ -72,13 +72,16 @@ if(token)
 
   },[navigate])
     
-
+  // <form onSubmit={handleSubmit}>
+  //    value={user.email}
+  //    onChange={handleChange}
  
 
   return (
     <>
-      <div className="logincontainer text-center ">
-      {Loading && <Spinner/>}
+     
+     <div className="regcontainer text-center">
+        {Loading && <Spinner/>}
         <div className="row">
           {/* Image Section */}
           <div className="col">
@@ -94,7 +97,8 @@ if(token)
                     <div className="card-body">
                       <h2 className="card-title text-center mb-4">Login</h2>
                       <form onSubmit={handleSubmit}>
-                        
+                       
+                       
 
                         {/* Email Field */}
                         <div className="mb-3">
@@ -112,8 +116,7 @@ if(token)
                           />
                         </div>
 
-                       
-
+                      
                         {/* Password Field */}
                         <div className="mb-3">
                           <label htmlFor="password" className="form-label">

@@ -25,7 +25,7 @@ const{user}=useAuth();
       </p>
     </div>
     <div className="about-image">
-      <Lottie animationData={anim1} loop={true}/>
+      <Lottie animationData={anim1} loop={true} style={{width:"500px"}}/>
     </div>
   </div>
 </div>

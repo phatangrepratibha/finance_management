@@ -144,7 +144,7 @@ if(token)
                         {/* Submit Button */}
                         <div className="d-grid">
                           <button type="submit" className="btn btn-dark">
-                            Register
+                         Sign UP
                           </button>
                         </div>
                       </form>

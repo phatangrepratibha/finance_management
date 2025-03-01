@@ -15,11 +15,7 @@ export const Navbar = () => {
   return (
     <nav className="navbar navbar-expand-lg bg-body-tertiary">
       <div className="container-fluid">
-        <a className="navbar-brand" href="#">
-          <b>
-            <i style={{ color: "purple" }}>Fynzo</i>Vault
-          </b>
-        </a>
+        <a className="navbar-brand" href="#">Fynzo<i style={{color:"purple"}}>Vault</i></a>
         <button
           className="navbar-toggler"
           type="button"
@@ -36,25 +32,17 @@ export const Navbar = () => {
           {/* Centered Navigation Links */}
           <ul className="navbar-nav mx-auto mb-2 mb-lg-0 m " >
             <li className="nav-item">
-              <NavLink className="nav-link active" to="/">
-                <b>
-                  <i  style={{ color: "black" }}>Home</i>
-                </b>
-              </NavLink>
+            <NavLink className="nav-link active" to="/">Home</NavLink>
             </li>
             <li className="nav-item">
-              <NavLink className="nav-link active" to="/about">
-                <b>
-                  <i style={{ color: "black"}}>About</i>
-                </b>
-              </NavLink>
+             
+              <NavLink className="nav-link active" to="/about">About</NavLink>
+             
             </li>
             <li className="nav-item">
-              <NavLink className="nav-link active" to="/add">
-                <b>
-                  <i style={{ color: "black" }}>Transaction</i>
-                </b>
-              </NavLink>
+             
+              <NavLink className="nav-link active" to="/add">Transaction</NavLink>
+             
             </li>
           </ul>
 
@@ -95,7 +83,7 @@ export const Navbar = () => {
           ) : (
             <>
               <NavLink to="/register" className="btn btn-dark me-2">
-                <i className="fas fa-user-plus"></i> Register
+                <i className="fas fa-user-plus"></i> Sign Up
               </NavLink>
               <NavLink to="/login" className="btn btn-dark">
                 <i className="fas fa-sign-in-alt"></i> Login

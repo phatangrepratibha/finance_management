@@ -7,6 +7,7 @@ import { Login } from "./components/Login";
 import { useAuth } from "./store/auth";
 import Logout from "./components/Logout";
 import Add from "./components/Add";
+import Footer from "./components/Footer";
 
 
 const App = () => {
@@ -25,6 +26,7 @@ const App = () => {
         <Route path="/login" element={<Login />} />
       </Routes>
  
+ <Footer/>
     </BrowserRouter>
   );
 };
