@@ -113,7 +113,7 @@ export const Home = () => {
       </p> <hr style={{color:"blue"}}/>
     </div>
     <div className="about-image">
-     <img src="g2.jpg" alt="" />
+    <img src="sim.jpg" alt="" />
     </div>
   </div>
   </div>
@@ -123,7 +123,7 @@ export const Home = () => {
   <div className="about-us-container">
     
     <div className="about-image">
-     <img src="sim3.jpg" alt="" />
+     <img src="home.jpg" alt="" />
     </div>
 
     <div className="about-text">
